@@ -1,0 +1,35 @@
+.box {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    line-height: 200px;
+    position: relative;
+    margin: 15% auto;
+}
+
+.box::before {
+    content: "";
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    position: absolute;
+    transform: translate(-10px, -5%);
+}
+
+.box::after {
+    content: "";
+    background-color: green;
+    bottom: 0%;
+    right: 0%;
+    height: 200px;
+    width: 200px;
+    z-index: -1;
+    position: absolute;
+    transform: translate(5%, 5%);
+}

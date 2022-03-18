@@ -1,0 +1,16 @@
+.icon {
+    width: 164px;
+    margin: 15% auto;
+}
+
+.icon1 {
+    color: blue;
+    background-color: white;
+    width: 80px;
+}
+
+.icon2 {
+    color: white;
+    background-color: blue;
+    width: 80px;
+}
