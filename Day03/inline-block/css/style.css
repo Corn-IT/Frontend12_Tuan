@@ -1,0 +1,23 @@
+.box {
+    background: green;
+    width: 400px;
+    height: 100px;
+    margin: 15% auto;
+}
+
+.box1 {
+    background-color: black;
+    display: inline-block;
+    width: 50px;
+    height: 50%;
+    right: 0%;
+    vertical-align: top;
+}
+
+.box2 {
+    background-color: black;
+    display: inline-block;
+    width: 50px;
+    height: 100%;
+    margin-left: 5px;
+}

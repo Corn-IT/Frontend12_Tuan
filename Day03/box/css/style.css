@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100%;
+    background-color: yellowgreen;
+    font-size: 0;
+}
+
+.box1 {
+    display: inline-block;
+    background-color: green;
+    width: 30%;
+    border: 3px solid black;
+    font-size: 24px;
+    vertical-align: top;
+}
+
+.box2 {
+    display: inline-block;
+    background-color: blue;
+    width: 70%;
+    border: 5px solid black;
+    font-size: 24px;
+}

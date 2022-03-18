@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f1fd;
+  font-family: "Fredoka", sans-serif;
+}
+
+#boxSignup {
+  width: 900px;
+  height: 700px;
+  background-color: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  font-size: 0px;
+}
+
+/* Box Introduce */
+
+.boxIntroduce {
+  width: 43%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(130, 135, 184, 1) 0%, rgba(120, 70, 147, 1) 76%);
+  border-radius: 5px 0 0 5px;
+  display: inline-block;
+  font-size: 17px;
+}
+
+.boxIntroduce .introduceForm {
+  list-style: none;
+  width: 75%;
+  padding: 70px 0 0 70px;
+}
+
+.boxIntroduce .introduceForm li {
+  margin-bottom: 40px;
+}
+
+.boxIntroduce .introduceForm .introduceIcon {
+  background-color: rgb(189, 188, 188);
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+  line-height: 30px;
+  text-align: center;
+}
+
+.boxIntroduce .introduceForm .icon_check {
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.boxIntroduce .introduceForm .introduceTitle,
+.introduceContent {
+  color: #fff;
+}
+
+.boxIntroduce .introduceForm .introduceTitle {
+  font-weight: normal;
+  font-size: 21px;
+  margin: 10px 0px;
+}
+
+/* Sign Up Form */
+
+.signupForm {
+  display: inline-block;
+  font-size: 17px;
+  width: 57%;
+  vertical-align: top;
+  padding: 50px;
+}
+
+.signupForm form,
+.titleForm {
+  width: 100%;
+}
+
+.titleForm {
+  margin-bottom: 40px;
+}
+
+.labelForm {
+  font-size: 16px;
+  color: #373941;
+  display: inline-block;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.inputForm {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f2f3f5;
+  outline: none;
+  border: 0;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.inputForm:focus {
+  border: 2px solid rgb(172, 142, 160);
+}
+
+.submitForm {
+  padding: 20px;
+  color: white;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgb(164, 88, 187);
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.submitForm:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 1px 1px rgba(228, 144, 210, 0.466);
+}
+
+.checkboxForm {
+  margin-left: 5px;
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+  border: 0;
+  outline: none;
+}
