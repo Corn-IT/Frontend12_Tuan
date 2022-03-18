@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    background-color: green;
+    color: white;
+    width: 600px;
+    margin: 20px auto 0px;
+    padding: 10px 0px;
+}
+
+.contentText {
+    color: blue;
+    padding: 10px 20px;
+}
+
+p:last-child {
+    background-color: yellow;
+}
+
+body {
+    background-image: url(../img/body-background.jpg);
+    background-size: 100%;
+}
