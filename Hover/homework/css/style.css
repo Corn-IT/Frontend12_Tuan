@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(64deg, rgba(71,102,148,1) 0%, rgba(19,70,117,1) 79%);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    min-width: 800px;
+    height: 80%;
+    background: linear-gradient(64deg, rgba(19,70,117,1) 0%, rgba(71,102,148,1) 79%);
+    margin: auto;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease;
+    opacity: 0.8;
+}
+
+ul {
+    background: linear-gradient(64deg, rgba(19,70,117,0.7) 0%, rgba(71,102,148,0.7) 79%);
+    opacity: 0.5;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 60.5%;
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.3s linear;
+    position:absolute;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease;
+
+}
+
+li {
+    display: flex;
+    justify-content: space-around;
+}
+.navIcon {
+    font-size: 25px;
+    width: 10%;
+    text-align: center;
+}
+
+.navLink {
+    font-size: 15px;
+    width: 20%;
+    text-align: center;
+}
+
+header:hover img {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+header:hover ul {
+    height: 80px;
+	opacity: 1;
+	transform: translateY(-80%);
+}
+
+a:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
