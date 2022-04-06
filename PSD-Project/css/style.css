@@ -1,0 +1,338 @@
+/* RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Kaushan Script", cursive;
+  font-family: "Montserrat", sans-serif;
+  cursor: default;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(
+      to bottom,
+      rgba(243, 129, 129, 0.9),
+      rgba(252, 227, 138, 0.9)
+    ),
+    url("../img/hero.png") top center / cover no-repeat;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 10px;
+}
+
+.navbar .navLogo {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navbar .navList {
+  list-style: none;
+  display: flex;
+}
+
+.navbar .navList a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 50px;
+  padding-bottom: 16px;
+  transition: 0.4s;
+  height: 32px;
+}
+
+.navbar .navList li:hover a {
+  border-bottom: 5px solid rgb(252, 227, 138);
+  color: rgb(252, 227, 138);
+}
+
+.slider .sliderContent {
+  text-align: center;
+  color: #fff;
+  width: 80%;
+  margin: 100px auto 0 auto;
+}
+
+.textContent1 {
+  font-size: 72px;
+  font-family: "Kaushan Script", cursive;
+}
+
+.textContent2 {
+  font-size: 150px;
+  font-weight: bold;
+}
+
+.line {
+  width: 60px;
+  height: 3px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.slider .sliderContent .buttonSlider {
+  width: 160px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  margin-top: 40px;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 14px;
+}
+
+.slider .sliderContent .buttonSlider:hover {
+  transform: scale(1.1);
+  color: rgb(252, 227, 138);
+  transition: 0.4s;
+  border: 1px solid rgb(252, 227, 138);
+}
+
+.slider .sliderList {
+  margin-top: 173px;
+  list-style: none;
+  display: flex;
+}
+
+.slider .sliderList li {
+  text-decoration: none;
+  width: 25%;
+  padding: 20px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider .sliderList li::after {
+  content: "";
+  width: 90%;
+  height: 2px;
+  background-color: #fff;
+  z-index: 10;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.slider .sliderList li::before {
+  content: "";
+  width: 20%;
+  height: 2px;
+  background-color: orange;
+  z-index: 11;
+  position: absolute;
+  left: -100px;
+  top: 0;
+  transition: 0.4s;
+}
+
+.slider .sliderList li:hover:before {
+  left: 0;
+}
+
+.slider .sliderList a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.slider .sliderList li:hover a {
+  color: rgb(252, 227, 138);
+}
+
+.slider .sliderList span {
+  font-weight: 800;
+}
+
+/* MAIN */
+
+/* SECTION ABOUT */
+
+.sectionAbout {
+  text-align: center;
+  margin-top: 85px;
+}
+
+.sectionAbout .aboutContent1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+}
+
+.sectionAbout .aboutContent2 {
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.sectionAbout .line {
+  background-color: rgb(243, 129, 129);
+  margin-top: 30px;
+}
+
+.aboutDescription {
+  margin: 0 auto;
+  width: 1000px;
+  margin-top: 40px;
+  margin-bottom: 65px;
+  font-size: 15px;
+  font-family: roboto, arial, helvetica;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.sectionAbout .aboutImg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionAbout .aboutItem {
+  width: 370px;
+  height: 260px;
+}
+
+.sectionAbout .imgItem1 {
+  background: linear-gradient(
+      45deg,
+      rgba(238, 215, 137, 0.8) 0%,
+      rgba(231, 133, 130, 0.8) 50%
+    ),
+    url("../img/about1.png") top center / cover no-repeat;
+  position: relative;
+}
+
+.sectionAbout .aboutImg p,
+.sectionAbout .aboutImg i {
+  color: #fff;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.sectionAbout .itemText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sectionAbout .imgItem2 {
+  background: url("../img/about2.png") top center / cover no-repeat;
+}
+
+.sectionAbout .imgItem3 {
+  background: url("../img/about3.png") top center / cover no-repeat;
+}
+
+.sectionAbout .aboutItem {
+  transition: 0.4s;
+}
+
+.sectionAbout .aboutItem:hover {
+  cursor: pointer;
+  box-shadow: 10px 10px #95e1d3;
+}
+
+/* SECTION Introduce */
+
+.sectionIntroduce {
+  background: #95e1d3;
+}
+
+.sectionIntroduce .Introduce {
+  display: flex;
+  margin-top: 110px;
+}
+
+.sectionIntroduce .Introduce .introduceItem {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 20%;
+  text-align: center;
+}
+
+.sectionIntroduce .Introduce .introduceItem h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.sectionIntroduce .Introduce .introduceItem span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* SECTION SERVICES */
+
+.sectionService {
+  text-align: center;
+  margin-top: 85px;
+}
+
+.sectionService .serviceContent1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+}
+
+.sectionService .serviceContent2 {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.sectionService .line {
+  background-color: rgb(243, 129, 129);
+  margin-top: 35px;
+}
+
+.sectionService .services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.sectionService .services .serviceItem {
+  width: calc(100% / 3);
+  display: flex;
+  padding: 50px 0px;
+}
+.sectionService .services .serviceItem:nth-child(1),
+.serviceItem:nth-child(2),
+.serviceItem:nth-child(3) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.sectionService .services .serviceItem .serviceImg {
+  width: 20%;
+  margin-top: 5px;
+}
+
+.sectionService .services .serviceItem .itemContent {
+  width: 70%;
+  text-align: left;
+}
+
+.sectionService .services .serviceItem .itemContent .contentText1 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.sectionService .services .serviceItem .itemContent .contentText2 {
+  font-size: 13px;
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
