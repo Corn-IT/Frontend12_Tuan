@@ -1,0 +1,13 @@
+body {
+  max-width: 1200px;
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  margin: 0 auto;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}

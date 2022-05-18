@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="icon">
+      <i class="fa-solid fa-circle-half-stroke" onclick="myFunction()"></i>
+      <i class="fa-solid fa-magnifying-glass-plus" id="increase"></i>
+      <i class="fa-solid fa-magnifying-glass-minus" id="decrease"></i>
+      <input type="color" value="#000000" id="colorWell" />
+    </div>
+    <div id="maindiv">
+      <p>
+        Watch the paragraph colors change now when you adjust the color picker.
+      </p>
+
+      <p>
+        Watch the paragraph colors change when you adjust the color picker. As
+        you make changes in the color picker, the first paragraph's color
+        changes, as a preview (this uses the <code>input</code> event). When you
+        close the color picker, the <code>change</code> event fires, and we
+        detect that to change every paragraph to the selected color.
+      </p>
+
+      <p class="p">Paragraph Content</p>
+      <div class="div">Div Content (Test only p tag change color)</div>
+      <pre class="pre">Pre Content (Test only p tag change color)</pre>
+      <br />
+      <h2>
+        Note note very very IMPORTANT:
+        <i class="fa-solid fa-arrow-turn-down"> </i
+        ><i class="fa-solid fa-arrow-turn-down"> </i
+        ><i class="fa-solid fa-arrow-turn-down"></i>
+      </h2>
+      <h3>
+        ĐÂY CHỈ LÀ BÀI DEMO FUNCTION DO EM CÓ CHÚT VIỆC RIÊNG HỔNG KỊP LÀM HOÀN
+        CHỈNH MONG ĐẠI KA DUY ĐẸP DZAI CUTE NƯƠNG TAY
+      </h3>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
